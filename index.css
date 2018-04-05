@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'StarWars';
+	src: url('DeathStar.otf');
+}
+main {
+	display: flex;
+	flex-direction: column;
+	background-color: #4E4449;
+}
+
+body {
+	background-color: #DAD2D2;
+}
+
+h1{
+	font-family: 'StarWars';
+	color: #441212;
+	margin: 0;
+}
+
+h2 {
+	font-family: cursive;
+	margin: 0;
+}
+
+header {
+	/*background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1)); */
+	background: radial-gradient(circle, white, #441212);
+	margin: 0;
+	align-items: center;
+
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	background-color: #9A938D;
+	font-size: 1.5em;
+}
+
+p {
+	margin: 1% 5% 1% 5%;
+	font-size: 1.2em;
+}
+
+#head-div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 1.7em;
+	margin:  0 20% 0 20%;
+}
+
+#img-caption {
+	color:white;
+	background-color: 
+}
+
+#image {
+
+	max-width: 100% ;
+	height:auto;
+	/*
+	border-width: 5px;
+	border-style: solid;
+	border-color: blue;
+	*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 20px 20px 0px  20px;
+	border-radius: 5%;
+
+}
+
+#img-div {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #615A54;
+	align-items: center;
+
+
+}
+
+#tribute-info {
+	margin: 0 10% 0 10%;
+	justify-content: center;
+	text-indent: 50px;
+	background-color: #AFA8AC;
+}
